@@ -1,13 +1,16 @@
 // ==UserScript==
 // @name owned
 // @namespace https://github.com/kevinfiol/owned
-// @version 0.1.0
+// @version 0.1.1
 // @description don't buy the same game twice
+// @icon https://raw.githubusercontent.com/kevinfiol/owned/raw/master/assets/icon.png
 // @license MIT; https://github.com/kevinfiol/owned/blob/master/LICENSE
 // @include http://*.steampowered.com/app/*
 // @include https://*.steampowered.com/app/*
 // @include http://*.gog.com/game/*
 // @include https://*.gog.com/game/*
+// @updateURL https://github.com/kevinfiol/owned/raw/master/owned.user.js
+// @downloadURL https://github.com/kevinfiol/owned/raw/master/owned.user.js
 // @run-at document-idle
 // @grant GM_xmlhttpRequest
 // @grant GM.xmlHttpRequest
@@ -19,6 +22,13 @@
 
 (async () => {
     const STORAGE_KEY = 'owned_userscript_gist_id';
+    const ICONS = {
+        Epic: 'https://github.com/kevinfiol/owned/raw/master/assets/epic.png',
+        GOG: 'https://github.com/kevinfiol/owned/raw/master/assets/gog.png',
+        Humble: 'https://github.com/kevinfiol/owned/raw/master/assets/humble.png',
+        'itch.io': 'https://github.com/kevinfiol/owned/raw/master/assets/itch.png',
+        Steam: 'https://github.com/kevinfiol/owned/raw/master/assets/steam.png'
+    };
 
     const storage = Storage();
 
@@ -94,6 +104,15 @@
                         <div>
                             ${results.map((result) => `
                                 <span style="padding-right: 2em">
+                                    ${ICONS[result.store]
+                                        ? `
+                                            <img
+                                                src=${ICONS[result.store]}
+                                                style="width: 20px; height: 20px; vertical-align: middle; margin: 0 4px 0 0;"
+                                            />
+                                        `
+                                        : ''
+                                    }
                                     ${result.url
                                         ? `<a href="${result.url}">${result.store}</a>`
                                         : result.store
