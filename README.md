@@ -18,4 +18,6 @@ Note: I recommend Violentmonkey since it is Free, Open-Source, and light on syst
 
 You must be using Playnite and have set up the [PlayniteGistLib](https://github.com/kevinfiol/PlayniteGistLib) extension before using this userscript.
 
-Assuming you've already set up PlayniteGistLib, copy the Gist ID you created for PlayniteGistLib. After installing the `owned` userscript, you may visit a store page on either Steam or GOG to get started. Upon initialization, `owned` will prompt you for your Gist ID. Simply paste, and hit OK on the prompt. In the case that you mistyped the ID, or you'd like to change the ID, you can always click the `Edit Gist ID` button (as seen in the screenshot above).
+Assuming you've already set up PlayniteGistLib, copy the Gist ID you created for PlayniteGistLib. After installing the `owned` userscript, you may visit a store page on either Steam or GOG to get started. Upon initialization, `owned` will prompt you for your Gist ID. Simply paste your Gist ID in the prompt, and hit OK. You may need to refresh the page.
+
+In the case that you mistyped the ID, or you'd like to change the ID, you can always click the `Edit Gist ID` button (as seen in the screenshot above).
