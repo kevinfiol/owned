@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name owned
 // @namespace https://github.com/kevinfiol/owned
-// @version 0.1.1
+// @version 0.1.2
 // @description don't buy the same game twice
-// @icon https://raw.githubusercontent.com/kevinfiol/owned/raw/master/assets/icon.png
+// @icon https://raw.githubusercontent.com/kevinfiol/owned/master/assets/icon.png
 // @license MIT; https://github.com/kevinfiol/owned/blob/master/LICENSE
 // @include http://*.steampowered.com/app/*
 // @include https://*.steampowered.com/app/*
