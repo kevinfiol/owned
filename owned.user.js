@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name owned
 // @namespace https://github.com/kevinfiol/owned
-// @version 0.1.2
+// @version 0.1.3
 // @description don't buy the same game twice
 // @icon https://raw.githubusercontent.com/kevinfiol/owned/master/assets/icon.png
 // @license MIT; https://github.com/kevinfiol/owned/blob/master/LICENSE
