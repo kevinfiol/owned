@@ -1,6 +1,6 @@
 # owned
 
-[screenshot](/screenshot.png)
+![screenshot](/screenshot.png)
 
 A companion userscript for [PlayniteGistLib](https://github.com/kevinfiol/PlayniteGistLib). Helps prevent you from buying the same game twice across multiple storefronts. Works on Steam and GOG.
 
@@ -12,4 +12,4 @@ A companion userscript for [PlayniteGistLib](https://github.com/kevinfiol/Playni
 
 Note: I recommend Violentmonkey since it is Free, Open-Source, and light on system resources.
 
-2. **[Click here to install the userscript](/owned.user.js)**
+2. **[Click here to install the userscript](https://github.com/kevinfiol/owned/raw/master/owned.user.js)**
