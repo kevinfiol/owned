@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name owned
 // @namespace https://github.com/kevinfiol/owned
-// @version 0.1.3
+// @version 0.1.4
 // @description don't buy the same game twice
 // @icon https://raw.githubusercontent.com/kevinfiol/owned/master/assets/icon.png
 // @license MIT; https://github.com/kevinfiol/owned/blob/master/LICENSE
@@ -9,6 +9,8 @@
 // @include https://*.steampowered.com/app/*
 // @include http://*.gog.com/game/*
 // @include https://*.gog.com/game/*
+// @include http://*.gog.com/*/game/*
+// @include https://*.gog.com/*/game/*
 // @updateURL https://github.com/kevinfiol/owned/raw/master/owned.user.js
 // @downloadURL https://github.com/kevinfiol/owned/raw/master/owned.user.js
 // @run-at document-idle
